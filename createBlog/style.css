@@ -1,0 +1,40 @@
+body{
+    background-color: lightblue;
+}
+p{
+    display: flex;
+}
+div{
+    background-color: rgba(255, 255, 255, .90);
+    display: block;
+    border: .025vw solid #000000;
+    margin-bottom: 2vw;
+}
+#postButton{
+    display:flex;
+    width: 100%;
+    justify-items: center;
+}
+.Name{
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+}
+.Title{
+    display: block;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+.Content{
+    display: flex;
+    padding: 3vw;
+    font-size: 20px
+}
+.userContainer{
+    display: flex;
+}
+.blogger{
+    font-size: 56px;
+    align-content: center
+}

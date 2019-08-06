@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blogger</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../icon.ico" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="style.js" defer></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAeLnBEOrqVVvyVuT_Sh7SnosftNJ9go_U",
+            authDomain: "ascblog-4bc71.firebaseapp.com",
+            databaseURL: "https://ascblog-4bc71.firebaseio.com",
+            projectId: "ascblog-4bc71",
+            storageBucket: "",
+            messagingSenderId: "918249278856",
+            appId: "1:918249278856:web:3bde09649e2c979b"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+    <h1 class = "blogger">Blogger.io</h1>
+    <div id="Blog Post">
+        <button onclick="window.location.href = '../main/index.html';" id="postButton">Post!</button>
+    </div>
+    <div class="allBlogs">
+
+    </div>
+</body>
+
+</html>

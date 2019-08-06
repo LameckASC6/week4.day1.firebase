@@ -1,0 +1,38 @@
+body{
+    backGround-color: lightblue;
+    margin: 0vw;
+}
+.userContainer{
+    display: flex;
+    width: 100vw;
+    margin: 0vw; 
+}
+#submit{
+    margin: 0vw;
+    display: flex;
+    padding-right: 1vw;
+    justify-content: center;
+}
+
+.blogger{
+    font-size: 56px;
+}
+
+.singleInput{
+    margin: 15px;
+    width: 100vw;
+}
+
+
+#content{
+    justify-content: center;
+
+ width: 300px;
+ height: 200px
+ 
+   
+}
+
+body{
+    text-align: center;
+}
